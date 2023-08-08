@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#E4E7E8;
+}
+
+.firstCard{
+    width: 250px;
+    height: 370px;
+    background-color: white;
+    border-radius: 3%;
+    position: absolute;
+    top:30%;
+    left: 22%;
+    transition: 0.3s all linear;
+   
+}
+.firstCard:hover{
+    transform:scale(1.1);
+    box-shadow: 3px -3px 10px grey;
+}
+
+
+.secondCard{
+    width: 250px;
+    height: 370px;
+    background-color: white;
+    border-radius: 3%;
+    position: absolute;
+    top:30%;
+    left:40%;
+    transition: 0.3s all linear;
+
+}
+.secondCard:hover{
+    transform:scale(1.1);
+    box-shadow: 3px -3px 10px grey;
+}
+
+.thirdCard{
+    width: 250px;
+    height: 370px;
+    background-color: white;
+    border-radius: 3%;
+    position: absolute;
+    top:30%;
+    left:58%;
+    transition: 0.3s all linear;
+   
+}
+.thirdCard:hover{
+    transform:scale(1.1);
+    box-shadow: -3px -3px 10px grey;
+}
+
+
+.Album{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    transform: translateX(25px) translateY(20px);
+    border-radius: 4px;
+}
+
+#albumName{
+    position: absolute;
+    font-size: 23px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400    ;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-35px) translateY(-30px);
+}
+#secondName{
+    position: absolute;
+    font-size: 23px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400    ;
+    top: 70%;
+    left:32%;
+    transform: translateX(-35px) translateY(-30px);
+}
+#thirdName{
+    position: absolute;
+    font-size: 23px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    top: 70%;
+    left: 53%;
+    transform: translateX(-35px) translateY(-30px);
+}
+#songs{
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    font-weight:400;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-30px) translateY(-35px);
+}
+#date{
+    position: absolute;
+    font-size: 13px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    top: 90%;
+    left:50%;
+    transform: translateX(-60px) translateY(-48px);
+}
+.listenButton{
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    border: none;
+    border-radius: 4px;
+    top:85%;
+    left:20%;
+    color: white;
+    background-color:#1DB954
+
+}
+.listenButton:hover{
+    background-color: green;
+}
+.fa-spotify{
+    color: white;
+    transform: translateX(-5px);
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
